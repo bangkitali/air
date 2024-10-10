@@ -6,7 +6,7 @@ import seaborn as sns
 # Load the data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('main.csv')
+    df = pd.read_csv('mainn.csv')
     df['DATE'] = pd.to_datetime(df['DATE'])
     return df
 
